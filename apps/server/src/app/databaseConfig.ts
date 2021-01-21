@@ -9,5 +9,4 @@ export class DatabaseConfig implements TypeOrmOptionsFactory{
   createTypeOrmOptions(): TypeOrmModuleOptions {
     return this.configService.get('database')([])
   }
-
 }
