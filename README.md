@@ -18,6 +18,12 @@ show databases : \l
 ** nx run server:serve (server is the app name, serve is  nx command)
 
 
+# Graphql
+
+** yarn add @nestjs/graphql graphql-tools graphql apollo-server-express
+
+
+
 
 
 This project was generated using [Nx](https://nx.dev).
